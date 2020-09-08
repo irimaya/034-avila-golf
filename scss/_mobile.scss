@@ -1,0 +1,107 @@
+@media only screen and (max-width: 768px) {
+  // Navbar
+  #navbar {
+    text-align: center;
+    .logo {
+      float: none;
+    }
+    ul {
+      float: none;
+      li {
+        float: none;
+        padding: 5px;
+      }
+    } //End ul
+  } //End #navbar
+
+// Showcase
+#showcase {
+  .showcase-wrap {
+    height: 100%;
+    &-box {
+      &-content {
+        padding: 20px;
+        margin: 10px;
+        width: 95%;
+      }
+    } //End &-box
+  } //End.showcase-wrap
+} //End #showcase
+
+//Features
+#features {
+  .features-wrap {
+    flex-direction: column;
+    &-img {
+      img {
+        width: 100%;
+      }
+    }
+    &-content {
+      padding: 50px 20px
+    }
+  } //.features-wrap
+} //#features
+
+// Arrivals
+#arrivals {
+  flex-direction: column;
+  .arrivals-img {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .arrivals-content {
+    padding: 90px 20px;
+  } //.arrivals-content
+} //#arrivals
+
+// Contact
+#contact {
+  .contact-img {
+    width: 100%;
+    height: 100%;
+  } //End .contact-img
+  .contact-content {
+    flex-direction: column;
+    &-box {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 20px;
+    }
+  }
+} //End #contact
+
+// Title 
+#title {
+  margin: 10px 0;
+  h2 {
+    padding: 25px;
+  }
+}
+
+// Inventory
+#inventory {
+  .inventory-wrap {
+    flex-direction: column;
+    &-box {
+      img {
+        width: 100%;
+      }
+    }
+  }
+} //#inventory
+
+// Contact
+#contact-form {
+  form {
+    width: 100%;
+    input,
+    textarea {
+      background: #c4c4c4;
+      border: 0;
+    }
+  }
+}
+} //End @media
